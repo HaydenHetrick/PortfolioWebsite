@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #333;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4242;
+}
+
+/* Profile Section */
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #333;
+}
+
+.profile h2 {
+    margin: 15px 0 5px;
+    font-size: 26px;
+}
+
+.profile h4 {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Social Buttons */
+.buttons {
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 15px;
+    font-size: 2em;
+    transition: color 0.3s ease;
+}
+
+.button.github:hover {
+    color: #4078c0;
+}
+
+.button.linkedin:hover {
+    color: #0e76a8;
+}
+
+.button.email:hover {
+    color: #d44638;
+}
+
+/* Experience & Education Section */
+.experience-education-section {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.experience-education-section .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.header-left, .header-right {
+    width: 45%;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff4242;
+}
